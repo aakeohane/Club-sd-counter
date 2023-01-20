@@ -1,0 +1,63 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #191c37;
+  background-image: url('/img/csd-logo-white.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 400px;
+  height: 150px;
+  padding: 20px 0;
+}
+
+input[type=number]::-webkit-inner-spin-button, ::-webkit-outer-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  height: 70px;
+	background: #0087ff;
+	border: 1px none #E3E3E3;
+	border-radius: 4px;
+	font-size: 40px;
+	color: #E3E3E3;
+	text-align: center;
+	width: 90px;
+  display: block;
+  margin: 0 auto;
+	font-weight: bold;
+}
+
+.btns {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.btns button {
+  width: 100px;
+  padding: 15px 0;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.add,
+button.minus {
+  background-color: #0087ff;
+  color: #ffffff;
+}
+button.reset {
+  background-color: transparent;
+  border: 4px solid #0087ff;
+  color: #0087ff;
+}
